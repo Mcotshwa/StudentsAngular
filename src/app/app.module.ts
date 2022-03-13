@@ -11,6 +11,10 @@ import { UpdateAddressComponent } from './read-addresses/update-address/update-a
 import { AddAddressComponent } from './read-addresses/add-address/add-address.component';
 import { MaterialModule } from './read-addresses/material/material/material.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ReadCitiesComponent } from './read-cities/read-cities.component';
+import { AddCityComponent } from './ReadCities/add-city/add-city.component';
+import { DeleteCityComponent } from './read-cities/delete-city/delete-city.component';
+import { UpdateCityComponent } from './read-cities/update-city/update-city.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReadAddressesComponent,
     AddAddressComponent,
     DeleteAddressComponent,
-    UpdateAddressComponent
+    UpdateAddressComponent,
+    ReadCitiesComponent,
+    AddCityComponent,
+    DeleteCityComponent,
+    UpdateCityComponent
   ],
   imports: [
     BrowserModule,

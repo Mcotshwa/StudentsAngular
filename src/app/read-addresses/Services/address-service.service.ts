@@ -68,7 +68,7 @@ export class AddressServiceService {
     this.setAddressess(addresses);
   }
 
-  replaceUser(updatedaddress:AddressInterface){
+  replaceAddress(updatedaddress:AddressInterface){
     let addresses = this.getAddresses();
     addresses=addresses.filter((ad)=>ad.AddressId!=updatedaddress.AddressId);
     addresses.push(updatedaddress);

@@ -31,7 +31,7 @@ export class UpdateAddressComponent implements OnInit {
   }
 
   editAddress(address:AddressInterface){
-    this.service.replaceUser(address);
+    this.service.replaceAddress(address);
   }
 
 
